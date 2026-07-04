@@ -41,5 +41,14 @@ public class ReverseNumber {
 		sb.reverse();
 		System.out.println(sb);
 	}
+	public void logic004() { // new method added by RB
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a Value: ");
+		int num = sc.nextInt();
+		
+		StringBuilder sb=new StringBuilder(String.valueOf(num));
+		sb.reverse();
+		System.out.println(sb);
+	}
 
 }
